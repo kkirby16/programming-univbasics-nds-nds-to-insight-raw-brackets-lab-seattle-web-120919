@@ -18,7 +18,6 @@ directors_movies[column_index][:worldwide_gross]
 
 totals[directors_name] += directors_movies[column_index][:worldwide_gross]
 
-binding.pry
 column_index += 1 
 end
 row_index += 1
